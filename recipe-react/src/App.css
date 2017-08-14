@@ -1,0 +1,90 @@
+.App {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  color: crimson;
+}
+
+input {
+  height: 20px;
+  width: 200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  font-family: 'Sofia';font-size: 22px;
+}
+
+button {
+  font-family: 'Sofia';font-size: 22px;
+  color: crimson;
+  height: 30px;
+  width: 100px;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+div.list {
+    margin: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+}
+
+div.App {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url("https://ak6.picdn.net/shutterstock/videos/11521715/thumb/5.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
