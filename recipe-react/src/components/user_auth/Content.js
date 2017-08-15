@@ -6,7 +6,7 @@ const Content = (props) => {
   return(
     <div className="content">
       <h2>Welcome, {props.user.name}</h2>
-      <button onClick={props.logout}>Click here to log out!</button>
+      <button onClick={props.logout}>LogOut</button>
     </div>
   )
 }

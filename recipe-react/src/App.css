@@ -1,4 +1,5 @@
 .App {
+  backface-visibility: hidden;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
@@ -7,11 +8,19 @@
 }
 
 h1{
-  color: crimson;
+  background-color: white;
+  color: deeppink;
+  height: 100%;
+  width: 100%;
+  position: center;
+}
+
+h2 {
+  color: white;
 }
 
 input {
-  height: 20px;
+  height: 50px;
   width: 200px;
 }
 
@@ -34,8 +43,8 @@ input {
 
 button {
   font-family: 'Sofia';font-size: 22px;
-  color: crimson;
-  height: 30px;
+  color: deeppink;
+  height: 40px;
   width: 100px;
   font-size: large;
 }
@@ -46,6 +55,7 @@ button {
 }
 
 div.list {
+    background-color: #FF96CA;
     margin: auto;
     width: 50%;
     border: 3px solid red;
@@ -65,13 +75,19 @@ div {
 }
 
 body {
-  background: url("https://ak6.picdn.net/shutterstock/videos/11521715/thumb/5.jpg");
+  background: url("./images/backgroundimage.jpg");
   background-size: cover;
   background-repeat: repeat;
   height: 100%;
   width: 100%;
   margin: 0;
   font-family: sans-serif;
+}
+
+label{
+  height: 100px;
+  width: 100px;
+  background-color: white;
 }
 
 
