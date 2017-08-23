@@ -16,7 +16,7 @@ class App extends Component {
 			recipes: [],
 			search: '',
       delete: false,
-			url: 'http://localhost:8080/',
+			url: 'https://still-castle-91949.herokuapp.com/',
 			 user: false, // default user is no user
       // the app needs to do a request, so there will be a loading time
       // we want to display something else while it does that
